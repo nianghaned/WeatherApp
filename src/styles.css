@@ -1,0 +1,79 @@
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  margin-top: 25px;
+}
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  margin-top: 25px;
+}
+p {
+  font-family: "Oswald", sans-serif;
+  margin-left: 200px;
+}
+#currently {
+  margin-left: 10px;
+}
+#tempLink {
+  font-size: small;
+  size: 1px;
+}
+.border {
+  border: solid;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 111px;
+  width: 900px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(239, 246, 249) 0%,
+    rgb(206, 239, 253) 90%
+  );
+}
+.card {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.card-body {
+  background: radial-gradient(
+    621px at 25.3% 13.8%,
+    rgb(255, 255, 255) 0%,
+    rgb(234, 236, 255) 90%
+  );
+}
+.row {
+  text-align: center;
+  padding-top: 23px;
+  font-family: "Roboto", sans-serif;
+}
+#daysofweek {
+  font-size: large;
+  font-family: "Roboto", sans-serif;
+  margin-top: 35px;
+  margin-bottom: 60px;
+  border: thin;
+}
+
+#search {
+  border-radius: 10px;
+  margin: 15px auto;
+  background-color: #f7fbfc;
+  border: 1px solid #769fcd;
+  color: #769fcd;
+  text-decoration: none;
+}
+#current {
+  border-radius: 10px;
+  margin: 15px auto;
+  background-color: #f7fbfc;
+  border: 1px solid #769fcd;
+  color: #769fcd;
+  text-decoration: none;
+}

@@ -39,6 +39,12 @@ function getTemperature(response) {
   );
   document.querySelector("#condition").innerHTML =
     response.data.weather[0].main;
+  let weatherIcon = document.querySelector("#icons");
+  weatherIcon.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  weatherIcon.setAttribute("alt", response.data.weather[0].description);
 }
 function currentWeather(city) {
   let apiKey = "4059dbca8de2f1fde78e82be329d5e71";

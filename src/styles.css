@@ -12,13 +12,20 @@ h2 {
   font-weight: lighter;
   margin-top: 25px;
 }
+h2 .active {
+  color: black;
+  cursor: default;
+}
+h2 .active:hover {
+  text-decoration: none;
+}
 p {
   font-family: "Oswald", sans-serif;
   margin-left: 200px;
 }
 small {
   position: relative;
-  font-size: 16px;
+  font-size: 13px;
   top: -15px;
 }
 #currently {
@@ -82,5 +89,10 @@ small {
   background-color: #f7fbfc;
   border: 1px solid #769fcd;
   color: #769fcd;
+  text-decoration: none;
+}
+
+#farenheight-link,
+#celcius-link {
   text-decoration: none;
 }

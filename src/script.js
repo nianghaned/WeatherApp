@@ -2,7 +2,7 @@ function liveDate(date) {
   let hour = date.getHours();
   let minutes = date.getMinutes();
   if (hour < 10) {
-    hour = `0${hours}`;
+    hour = `0${hour}`;
   }
 
   if (minutes < 10) {
